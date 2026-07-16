@@ -79,11 +79,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { name: "viewport", content: "width=device-width, initial-scale=1" },
       { title: "AI Workplace Productivity Assistant — Work Smarter with AI" },
       { name: "description", content: "Automate emails, organize tasks, and research anything in seconds using one intelligent workplace assistant." },
-      { property: "og:title", content: "AI Workplace Productivity Assistant" },
+      { property: "og:title", content: "AI Workplace Productivity Assistant — Work Smarter with AI" },
       { property: "og:description", content: "Automate emails, organize tasks, and research anything in seconds using one intelligent workplace assistant." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
 
+      { name: "twitter:title", content: "AI Workplace Productivity Assistant — Work Smarter with AI" },
+      { name: "twitter:description", content: "Automate emails, organize tasks, and research anything in seconds using one intelligent workplace assistant." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5fd6f55a-7794-4367-a3d3-28430430fc31/id-preview-417c44a0--c5d46e57-f555-4edd-876c-be4f7eba0b3b.lovable.app-1784230698747.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/5fd6f55a-7794-4367-a3d3-28430430fc31/id-preview-417c44a0--c5d46e57-f555-4edd-876c-be4f7eba0b3b.lovable.app-1784230698747.png" },
     ],
     links: [
       {
